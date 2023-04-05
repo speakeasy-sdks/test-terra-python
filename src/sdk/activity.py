@@ -3,7 +3,7 @@
 import requests as requests_http
 from . import utils
 from sdk.models import operations
-from typing import Any, Optional
+from typing import Optional
 
 class Activity:
     r"""Activity data"""
@@ -38,9 +38,7 @@ class Activity:
         res = operations.GetActivityResponse(status_code=http_res.status_code, content_type=content_type, raw_response=http_res)
         
         if http_res.status_code == 200:
-            if utils.match_content_type(content_type, 'application/json'):
-                out = utils.unmarshal_json(http_res.text, Optional[Any])
-                res.get_activity_200_application_json_one_of = out
+            pass
         elif http_res.status_code == 400:
             if utils.match_content_type(content_type, 'application/json'):
                 out = utils.unmarshal_json(http_res.text, Optional[operations.GetActivity400ApplicationJSON])

@@ -3,8 +3,6 @@
 from __future__ import annotations
 import dataclasses
 import requests as requests_http
-from ..shared import activity as shared_activity
-from ..shared import user as shared_user
 from dataclasses_json import Undefined, dataclass_json
 from sdk import utils
 from typing import Any, Optional
@@ -69,22 +67,11 @@ class GetActivity400ApplicationJSON:
     r"""indicates that an error happened (value is error)"""  
     
 
-@dataclass_json(undefined=Undefined.EXCLUDE)
-@dataclasses.dataclass
-class GetActivity200ApplicationJSON1:
-    
-    data: Optional[list[shared_activity.Activity]] = dataclasses.field(default=None, metadata={'dataclasses_json': { 'letter_case': utils.get_field_name('data'), 'exclude': lambda f: f is None }})  
-    type: Optional[str] = dataclasses.field(default=None, metadata={'dataclasses_json': { 'letter_case': utils.get_field_name('type'), 'exclude': lambda f: f is None }})  
-    user: Optional[shared_user.User] = dataclasses.field(default=None, metadata={'dataclasses_json': { 'letter_case': utils.get_field_name('user'), 'exclude': lambda f: f is None }})  
-    
-
 @dataclasses.dataclass
 class GetActivityResponse:
     
     content_type: str = dataclasses.field()  
     status_code: int = dataclasses.field()  
-    get_activity_200_application_json_one_of: Optional[Any] = dataclasses.field(default=None)
-    r"""Returned upon successful data request"""  
     get_activity_400_application_json_object: Optional[GetActivity400ApplicationJSON] = dataclasses.field(default=None)
     r"""Returned when one or more parameters is malformed - an appropriate error message will be returned"""  
     get_activity_401_application_json_object: Optional[GetActivity401ApplicationJSON] = dataclasses.field(default=None)

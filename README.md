@@ -32,7 +32,7 @@ req = operations.GetActivityRequest(
     
 res = s.activity.get(req)
 
-if res.get_activity_200_application_json_one_of is not None:
+if res.status_code == 200:
     # handle response
 ```
 <!-- End SDK Example Usage -->
