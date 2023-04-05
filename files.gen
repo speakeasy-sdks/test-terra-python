@@ -58,11 +58,9 @@ src/sdk/models/shared/caloriesample.py
 src/sdk/models/shared/activitylevelsample.py
 src/sdk/models/shared/tsssample.py
 src/sdk/models/shared/metsample.py
+src/sdk/models/shared/athletecollection.py
 src/sdk/models/shared/nodatareturned.py
 src/sdk/models/shared/datasenttowebhook.py
-src/sdk/models/shared/requestprocessing.py
-src/sdk/models/shared/ratelimitrequestprocessing.py
-src/sdk/models/shared/athletecollection.py
 src/sdk/models/shared/body.py
 src/sdk/models/shared/temperaturesample.py
 src/sdk/models/shared/measurementdatasample.py
