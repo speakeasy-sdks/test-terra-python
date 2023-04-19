@@ -35,3 +35,9 @@ Based on:
 Based on:
 - OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
 - Speakeasy CLI 1.20.1 (2.18.1) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-19 00:59:42
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.20.2 (2.18.2) https://github.com/speakeasy-api/speakeasy
