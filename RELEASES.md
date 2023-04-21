@@ -11,3 +11,39 @@ Based on:
 Based on:
 - OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
 - Speakeasy CLI 1.19.4 (2.16.7) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-06 00:55:10
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.19.6 (2.17.8) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-12 00:56:53
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.19.7 (2.17.9) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-14 00:56:47
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.20.0 (2.18.0) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-18 00:56:05
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.20.1 (2.18.1) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-19 00:59:42
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.20.2 (2.18.2) https://github.com/speakeasy-api/speakeasy
+
+## 2023-04-21 00:57:03
+### Changes
+Based on:
+- OpenAPI Doc 2022.03.16 https://prod.speakeasyapi.dev/v1/apis/Terra/version/v1/schema/download
+- Speakeasy CLI 1.21.4 (2.19.1) https://github.com/speakeasy-api/speakeasy
